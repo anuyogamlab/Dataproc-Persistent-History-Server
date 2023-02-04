@@ -11,3 +11,6 @@ PHS is nothing but a standalone cluster. It reads the Spark events from GCS, the
 These log files are important for engaging Google Cloud Technical Support to troubleshoot and explore. If PHS is not set up, you have to re-run the workload, which adds to support cycle time. If you have set up PHS, you can provide the logs directly to Technical Support.
 
 The following code block inside setup/ creates a Persistent History server. 
+
+# Best Practices of PHS
+https://cloud.google.com/blog/products/data-analytics/running-persistent-history-servers
